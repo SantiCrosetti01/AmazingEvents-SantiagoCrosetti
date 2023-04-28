@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 60px;
+}
+.carousel-item img{
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: cover;
+    object-position: center 15%;
+}
+.container-carousel{
+    position: relative !important;
+}
+.container-carousel h2{
+    background-color: rgba(184, 135, 11, 0.486);
+    padding: 4px;
+}
+.card{
+   object-fit: contain;
+}
+.dat-contact{
+    height: 5vh;
+    width: 5w;
+}
+.colour-dat{
+    color: rgb(218, 13, 190);
+}
+.cohort{
+    font-style: italic;
+    color: rgb(11, 126, 36);
+}
+.form-control{
+   min-height: 5vh;
+   min-width: 20vw;
+}
+.message{
+    min-width: 20vw;
+    min-height: 25vh;
+    border-radius: 14px;
+}
+tr{
+    height: 5vh;
+}
+.cards-details{
+    min-height: 80vh;
+    min-width: 70vw;
+}
+.image-details{
+    padding: 5px;
+    height: 60vh;
+    min-width: 60vw;
+}
